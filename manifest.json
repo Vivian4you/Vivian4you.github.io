@@ -2,8 +2,8 @@
   "name": "Adventskalender",
   "short_name": "Adventskalender",
   "description": "Ein Adventskalender mit Bibelstellen.",
-  "scope": "/vivian4you.github.io/",
-  "start_url": "/vivian4you.github.io/",
+  "scope": "/Vivian4you.github.io/",
+  "start_url": "/Vivian4you.github.io/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#b22222"
