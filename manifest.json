@@ -5,6 +5,13 @@
   "scope": "/Vivian4you.github.io/",
   "start_url": "/Vivian4you.github.io/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#b22222"
+  "background_color": "#0b0b0d",
+  "theme_color": "#17171a",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
