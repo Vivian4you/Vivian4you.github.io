@@ -397,8 +397,6 @@ function renderSectionCard(phase, s, num, next){
       ${s.nt?`<span class="section-ref nt">${esc(s.nt)}</span>`:''}
     </div>
     <div class="section-title">${esc(s.title)}</div>
-    <div class="section-text">${esc(s.text)}</div>
-    <div class="section-impulse">💬 ${esc(s.impulse)}</div>
   </div>`;
 }
 
