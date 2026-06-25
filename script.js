@@ -399,7 +399,7 @@ function renderSectionCard(phase, s, num, next){
     </div>
     <div class="section-title">${esc(s.title)}</div>
     
-    <details class="section-details">
+    <details class="section-details" onclick="event.stopPropagation()">
       <summary>Details anzeigen</summary>
       <div class="details-content">
         <div class="section-text">${esc(s.text)}</div>
