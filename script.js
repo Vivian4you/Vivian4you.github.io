@@ -387,6 +387,7 @@ function renderSectionCard(phase, s, num, next){
   const id=phase.id+'-s'+num;
   const isDone=completed.has(id);
   const isNext=next && next.id===id;
+  
   return `<div class="section-card ${isDone?'done':''} ${isNext?'is-next':''}" data-action="toggle-section" data-id="${id}">
     <div class="section-top">
       <span class="section-num">Abschnitt ${num}</span>
@@ -397,6 +398,14 @@ function renderSectionCard(phase, s, num, next){
       ${s.nt?`<span class="section-ref nt">${esc(s.nt)}</span>`:''}
     </div>
     <div class="section-title">${esc(s.title)}</div>
+    
+    <details class="section-details">
+      <summary>Details anzeigen</summary>
+      <div class="details-content">
+        <div class="section-text">${esc(s.text)}</div>
+        <div class="section-impulse">💬 ${esc(s.impulse)}</div>
+      </div>
+    </details>
   </div>`;
 }
 
