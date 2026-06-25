@@ -1,7 +1,7 @@
 {
-  "name": "Adventskalender",
-  "short_name": "Adventskalender",
-  "description": "Ein Adventskalender mit Bibelstellen.",
+  "name": "BibleToMind",
+  "short_name": "BibleToMind",
+  "description": "Ein Bibelleseplan.",
   "scope": "/Vivian4you.github.io/",
   "start_url": "/Vivian4you.github.io/",
   "display": "standalone",
